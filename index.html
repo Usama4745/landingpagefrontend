@@ -39,13 +39,15 @@
     }
 
     .bg-pattern {
-      margin-top: -1139px;
+      margin-top: -1396px;
       width: 1885px;
       margin-left: 36px;
     }
 
     .navitems {
       color: white;
+      display: flex;
+      align-items: center;
     }
 
     .maingap {
@@ -101,6 +103,23 @@
     .logo {
       text-align-last: center;
     }
+
+    .arrow {
+      float: left;
+      margin-left: 5px;
+    }
+    .large-text{
+      color: white;
+      font-size: 50px;
+      text-align: -webkit-center;
+      margin-top: 120px;
+      font-weight: 600;
+    }
+    .second-text{
+      color: white;
+      font-size: 19px;
+      text-align: -webkit-center;
+    }
   </style>
 </head>
 
@@ -111,18 +130,38 @@
         <div class="col-md-2">
           <img class="logo" src="images/logo.svg" />
         </div>
-        <div class="col-md-2 row">
-          <div class="navitems col-md-4">Product<img src="images/icon-arrow-light.svg"></div>
-          <div class="navitems col-md-4">Company<img src="images/icon-arrow-light.svg"></div>
-          <div class="navitems col-md-4">Connect<img src="images/icon-arrow-light.svg"></div>
+        <div class="col-md-3 row">
+          <div class="navitems col-md-4">
+            <div>Product</div>
+            <img class="arrow" src="images/icon-arrow-light.svg">
+          </div>
+          <div class="navitems col-md-4">
+            <div>Company</div>
+            <img class="arrow" src="images/icon-arrow-light.svg">
+          </div>
+          <div class="navitems col-md-4">
+            <div>Connect</div>
+            <img class="arrow" src="images/icon-arrow-light.svg">
+          </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-7">
           <div class="btns row">
             <div class="col-md-4"><button type="button" class="loginbtn btn">Login</button></div>
             <div class="col-md-2"><button type="button" class="regbtn btn">Sign Up</button></div>
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-md-12 large-text">
+          A modern publishing platform
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 second-text">
+          Grow your audience and build your online brand
+        </div>
+      </div>
+
       <img class="bg-pattern" src="images/bg-pattern-intro.svg" />
     </div>
   </div>
