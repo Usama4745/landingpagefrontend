@@ -52,6 +52,9 @@
       margin-left: 150px;
       margin-right: 150px;
       margin-top: 50px;
+      text-align-last: center;
+      display: flex;
+      align-items: center;
     }
 
     .btns {
@@ -94,6 +97,10 @@
       color: #ffffff !important;
       background: transparent !important;
     }
+
+    .logo {
+      text-align-last: center;
+    }
   </style>
 </head>
 
@@ -102,14 +109,14 @@
     <div class="head">
       <div class="maingap row">
         <div class="col-md-2">
-          <img src="images/logo.svg" />
+          <img class="logo" src="images/logo.svg" />
         </div>
         <div class="col-md-2 row">
-          <div class="navitems col-md-4">Product</div>
-          <div class="navitems col-md-4">Company</div>
-          <div class="navitems col-md-4">Connect</div>
+          <div class="navitems col-md-4">Product<img src="images/icon-arrow-light.svg"></div>
+          <div class="navitems col-md-4">Company<img src="images/icon-arrow-light.svg"></div>
+          <div class="navitems col-md-4">Connect<img src="images/icon-arrow-light.svg"></div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-8">
           <div class="btns row">
             <div class="col-md-4"><button type="button" class="loginbtn btn">Login</button></div>
             <div class="col-md-2"><button type="button" class="regbtn btn">Sign Up</button></div>
