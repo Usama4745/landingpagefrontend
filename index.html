@@ -28,18 +28,71 @@
     .attribution a {
       color: hsl(228, 45%, 44%);
     }
-    .head{
+
+    .head {
       width: 100%;
       height: 550px;
       overflow: hidden;
       background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
       border-bottom-left-radius: 80px;
-
+      position: relative;
     }
-    .bg-pattern{
+
+    .bg-pattern {
       margin-top: -1139px;
       width: 1885px;
       margin-left: 36px;
+    }
+
+    .navitems {
+      color: white;
+    }
+
+    .maingap {
+      margin-left: 150px;
+      margin-right: 150px;
+      margin-top: 50px;
+    }
+
+    .btns {
+      float: right;
+    }
+
+    .loginbtn {
+      font-size: 13px;
+      color: white;
+      letter-spacing: 1px;
+      line-height: 15px;
+      border-radius: 40px;
+      background: transparent;
+      transition: all 0.3s ease 0s;
+      height: 40px;
+      font-weight: bolder;
+      width: 80px;
+    }
+
+    .loginbtn:hover {
+      color: hsl(353, 100%, 62%) !important;
+      background: #ffffff !important;
+    }
+
+    .regbtn {
+      font-size: 13px;
+      color: hsl(353, 100%, 62%) !important;
+      letter-spacing: 1px;
+      line-height: 15px;
+      border-radius: 40px;
+      background: #ffffff !important;
+      ;
+      transition: all 0.3s ease 0s;
+      height: 40px;
+      font-weight: bolder;
+      width: 100px;
+    }
+
+    .regbtn:hover {
+      color: #ffffff !important;
+      background: transparent !important;
     }
   </style>
 </head>
@@ -47,7 +100,23 @@
 <body>
   <div class="main">
     <div class="head">
-        <img class="bg-pattern" src="images/bg-pattern-intro.svg"/>
+      <div class="maingap row">
+        <div class="col-md-2">
+          <img src="images/logo.svg" />
+        </div>
+        <div class="col-md-2 row">
+          <div class="navitems col-md-4">Product</div>
+          <div class="navitems col-md-4">Company</div>
+          <div class="navitems col-md-4">Connect</div>
+        </div>
+        <div class="col-md-6">
+          <div class="btns row">
+            <div class="col-md-4"><button type="button" class="loginbtn btn">Login</button></div>
+            <div class="col-md-2"><button type="button" class="regbtn btn">Sign Up</button></div>
+          </div>
+        </div>
+      </div>
+      <img class="bg-pattern" src="images/bg-pattern-intro.svg" />
     </div>
   </div>
   Product
