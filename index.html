@@ -207,22 +207,28 @@
       min-height: 1246px;
     }
 
-    .third-container {
+    .third-absolute-container {
       position: relative;
-      overflow: hidden;
-      min-height: 1246px;
+      min-height: 500px;
     }
 
-    .inside-third-container {
+    .third-container {
       background: hsl(237, 23%, 32%);
       width: 100%;
-      height: 400px;
+      height: 405px;
       margin-top: 60px;
+      border-bottom-left-radius: 80px;
+      border-top-right-radius: 80px;
     }
 
     .phone-svg {
       position: absolute;
-      margin-top: -24%;
+      margin-top: -4%;
+    }
+
+    .third-panel-gap {
+      margin-left: 150px;
+      margin-right: 150px;
     }
   </style>
 </head>
@@ -310,11 +316,13 @@
       <img class="second-panel-image" style="position: absolute;" src="images/illustration-editor-desktop.svg">
     </div>
     <div class="third-container">
-      <div class="inside-third-container">
+      <div class="third-panel-gap third-absolute-container">
+        <div class="inside-third-container">
+
+        </div>
+        <img class="phone-svg" src="images/illustration-phones.svg">
 
       </div>
-      <img class="phone-svg" src="images/illustration-phones.svg">
-
     </div>
   </div>
   <!-- Product
