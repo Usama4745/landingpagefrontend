@@ -20,6 +20,10 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    body{
+      background: #fafafa;
+
+    }
     .attribution {
       font-size: 11px;
       text-align: center;
@@ -65,45 +69,62 @@
 
     .loginbtn {
       font-size: 13px;
-      color: white;
       letter-spacing: 1px;
       line-height: 15px;
       border-radius: 40px;
-      background: transparent;
       transition: all 0.3s ease 0s;
       height: 40px;
       font-weight: bolder;
       width: 80px;
     }
 
-    .loginbtn:hover {
-      color: hsl(353, 100%, 62%) !important;
-      background: #ffffff !important;
-    }
 
     .regbtn {
       font-size: 13px;
-      color: hsl(353, 100%, 62%) !important;
       letter-spacing: 1px;
       line-height: 15px;
       border-radius: 40px;
-      background: #ffffff !important;
-      ;
       transition: all 0.3s ease 0s;
       height: 40px;
       font-weight: bolder;
       width: 100px;
     }
 
-    .regbtn:hover {
-      color: #ffffff !important;
-      background: transparent !important;
+    .startforfree {
+      font-size: 13px;
+      letter-spacing: 1px;
+      line-height: 15px;
+      border-radius: 40px;
+      transition: all 0.3s ease 0s;
+      height: 40px;
+      font-weight: bolder;      
+      width: 130px;
     }
-
     .logo {
       text-align-last: center;
     }
 
+    .transparent-btn{
+      color: white;
+      background: transparent;
+
+    }
+    .transparent-btn:hover {
+      color: hsl(353, 100%, 62%) !important;
+      background: #ffffff !important;
+    }
+    .colored-btn{
+      color: hsl(353, 100%, 62%) !important;
+      background: #ffffff !important;
+
+    }
+    .colored-btn:hover {
+      color: white;
+      background: transparent;
+    }
+    .learn-more{
+      width: 150px;
+    }
     .arrow {
       float: left;
       margin-left: 5px;
@@ -120,7 +141,17 @@
       font-size: 19px;
       text-align: -webkit-center;
     }
-  </style>
+    .bordered-btn{
+      border:1px solid white;
+      margin-left: 20px;
+    }
+    .center-content{
+      text-align: center;
+    }  
+    .margin-top-content{
+      margin-top:30px;
+    }
+    </style>
 </head>
 
 <body>
@@ -146,8 +177,8 @@
         </div>
         <div class="col-md-7">
           <div class="btns row">
-            <div class="col-md-4"><button type="button" class="loginbtn btn">Login</button></div>
-            <div class="col-md-2"><button type="button" class="regbtn btn">Sign Up</button></div>
+            <div class="col-md-4"><button type="button" class="loginbtn transparent-btn btn">Login</button></div>
+            <div class="col-md-2"><button type="button" class="learn-more colored-btn btn">Sign Up</button></div>
           </div>
         </div>
       </div>
@@ -161,7 +192,12 @@
           Grow your audience and build your online brand
         </div>
       </div>
-
+      <div class="row">
+        <div class="col-md-12 center-content margin-top-content">
+          <button type="button" class="startforfree colored-btn btn">Start for Free</button>
+          <button type="button"  class="startforfree transparent-btn bordered-btn btn">Learn More</button>        
+        </div>
+      </div>
       <img class="bg-pattern" src="images/bg-pattern-intro.svg" />
     </div>
   </div>
