@@ -20,10 +20,11 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    body{
+    body {
       background: #fafafa;
 
     }
+
     .attribution {
       font-size: 11px;
       text-align: center;
@@ -97,61 +98,115 @@
       border-radius: 40px;
       transition: all 0.3s ease 0s;
       height: 40px;
-      font-weight: bolder;      
+      font-weight: bolder;
       width: 130px;
     }
+
     .logo {
       text-align-last: center;
     }
 
-    .transparent-btn{
+    .transparent-btn {
       color: white;
       background: transparent;
 
     }
+
     .transparent-btn:hover {
       color: hsl(353, 100%, 62%) !important;
       background: #ffffff !important;
     }
-    .colored-btn{
+
+    .colored-btn {
       color: hsl(353, 100%, 62%) !important;
       background: #ffffff !important;
 
     }
+
     .colored-btn:hover {
       color: white;
       background: transparent;
     }
-    .learn-more{
+
+    .learn-more {
       width: 150px;
     }
+
     .arrow {
       float: left;
       margin-left: 5px;
     }
-    .large-text{
+
+    .large-text {
       color: white;
       font-size: 50px;
       text-align: -webkit-center;
       margin-top: 120px;
       font-weight: 600;
     }
-    .second-text{
+
+    .second-text {
       color: white;
       font-size: 19px;
       text-align: -webkit-center;
     }
-    .bordered-btn{
-      border:1px solid white;
+
+    .bordered-btn {
+      border: 1px solid white;
       margin-left: 20px;
     }
-    .center-content{
+
+    .center-content {
       text-align: center;
-    }  
-    .margin-top-content{
-      margin-top:30px;
     }
-    </style>
+
+    .margin-top-content {
+      margin-top: 30px;
+    }
+
+    .heading-text {
+      font-size: 40px;
+    }
+
+    .second-element-gap {
+      margin-left: 150px;
+      margin-right: 150px;
+      margin-top: 150px;
+    }
+
+    .text-color {
+      color: hsl(237, 23%, 32%);
+    }
+
+    .sub-heading {
+      font-size: 30px;
+    }
+
+    .sub-main-content {
+      margin-top: 80px;
+    }
+
+    .sub-paragraph {
+      margin-top: 40px;
+      line-height: 1.8;
+    }
+
+    .second-panel-image {
+      margin-top: -693px;
+      margin-left: 1033px;
+      width: 1201px;
+    }
+
+    .sub-content-container {
+      margin-top: 170px;
+    }
+
+    .upper-container {
+      position: relative;
+      overflow: hidden;
+      min-height: 1246px;
+    }
+  </style>
 </head>
 
 <body>
@@ -195,13 +250,49 @@
       <div class="row">
         <div class="col-md-12 center-content margin-top-content">
           <button type="button" class="startforfree colored-btn btn">Start for Free</button>
-          <button type="button"  class="startforfree transparent-btn bordered-btn btn">Learn More</button>        
+          <button type="button" class="startforfree transparent-btn bordered-btn btn">Learn More</button>
         </div>
       </div>
       <img class="bg-pattern" src="images/bg-pattern-intro.svg" />
     </div>
+    <div class="upper-container">
+      <div class="second-element-gap text-color row">
+        <div style="text-align: center;" class="heading-text col-md-12">
+          Designed for the future
+        </div>
+        <div class="sub-content-container">
+          <div class="sub-main-content row">
+            <div class="sub-heading col-md-6">
+              Introducing an extensible editor
+            </div>
+          </div>
+          <div class="sub-paragraph row">
+            <div class="col-md-4">
+              Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
+              The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+              videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+              change the looks of a blog.
+            </div>
+          </div>
+          <div class="sub-main-content row">
+            <div class="sub-heading col-md-6">
+              Robust content management
+            </div>
+          </div>
+          <div class="sub-paragraph row">
+            <div class="col-md-4">
+              Flexible content management enables users to easily move through posts. Increase the usability of your
+              blog
+              by adding customized categories, sections, format, or flow. With this functionality, you’re in full
+              control.
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="second-panel-image" style="position: absolute;" src="images/illustration-editor-desktop.svg">
+    </div>
   </div>
-  Product
+  <!-- Product
 
   Overview
   Pricing
@@ -222,16 +313,6 @@
   Newsletter
   LinkedIn
 
-  Login
-  Sign Up
-
-  A modern publishing platform
-  Grow your audience and build your online brand
-
-  Start for Free
-  Learn More
-
-  Designed for the future
 
   Introducing an extensible editor
   Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
@@ -276,7 +357,7 @@
 
   Contact
   Newsletter
-  LinkedIn
+  LinkedIn -->
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
