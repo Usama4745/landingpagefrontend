@@ -296,17 +296,36 @@
       margin: 0;
       padding: 0;
       margin-top: 20px;
+      line-height: 1.8;
     }
 
     .fourth-sub-container {
       position: absolute;
       top: 38%;
     }
-    .footer{
+
+    .footer {
       height: 550px;
       margin-top: 400px;
       border-top-right-radius: 80px;
-      background: hsl(237, 17%, 21%);
+      background: hsl(240, 10%, 16%);
+    }
+
+    .textstyles {
+      color: white;
+    }
+
+    li {
+      list-style-type: none;
+      line-height: 2.5;
+    }
+
+    .start-of-list {
+      margin-bottom: 25px;
+    }
+
+    .footer-gap {
+      margin-top: 70px;
     }
   </style>
 </head>
@@ -428,7 +447,8 @@
             <div class="fourth-sub-title">Free, open, simple</div>
           </div>
           <div class="row">
-            <div class="col-md-8 sub-fourth-paragraph">Blogr is a free and open source application backed by a large community
+            <div class="col-md-8 sub-fourth-paragraph">Blogr is a free and open source application backed by a large
+              community
               of helpful developers. It
               supports
               features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting
@@ -452,7 +472,41 @@
       <img class="fourth-panel-image" src="images/illustration-laptop-desktop.svg" />
 
     </div>
-    <div class="footer"></div>
+    <div class="footer">
+        <div class="row textstyles panel-gap">
+          <div class="col-md-3 footer-gap">
+            <img class="logo" src="images/logo.svg" />
+          </div>
+          <div class="col-md-3 footer-gap">
+
+            <ul>
+              <li class="start-of-list">Product</li>
+              <li>Overview</li>
+              <li>Pricing</li>
+              <li>Marketplace</li>
+              <li>Features</li>
+              <li>Integrations</li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-gap">
+            <ul>
+              <li class="start-of-list">Company</li>
+              <li>About</li>
+              <li>Team</li>
+              <li>Blog</li>
+              <li>Careers</li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-gap">
+            <ul>
+              <li class="start-of-list">Connect</li>
+              <li>Contact</li>
+              <li>Newsletter</li>
+              <li>LinkedIn</li>
+            </ul>
+          </div>
+        </div>
+    </div>
   </div>
   <!-- Product
 
