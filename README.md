@@ -100,7 +100,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Usama Ahmed](https://www.your-site.com)
+- Website - [Usama Ahmed](https://github.com/Usama4745)
 - Frontend Mentor - [@Usama4745](https://www.frontendmentor.io/profile/Usama4745)
 - Twitter - [@usamaisdev](https://twitter.com/usamaisdev)
 
